@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0996C47A1E5B5C060049FAF0 /* ContextMenu_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 0996C4781E5B5C060049FAF0 /* ContextMenu_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0996C47D1E5B5C060049FAF0 /* ContextMenu_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0996C4761E5B5C060049FAF0 /* ContextMenu_iOS.framework */; };
+		0996C47E1E5B5C060049FAF0 /* ContextMenu_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0996C4761E5B5C060049FAF0 /* ContextMenu_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0996C4831E5B5C650049FAF0 /* UIView+YALConstraints.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DCACDB11A6FCF3B00D5E1B1 /* UIView+YALConstraints.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0996C4841E5B5C670049FAF0 /* YALContextMenuTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DCACDB31A6FCF3B00D5E1B1 /* YALContextMenuTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0996C4851E5B5C690049FAF0 /* YALContextMenuCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D88C3511A7000300020C283 /* YALContextMenuCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0996C4861E5B5C850049FAF0 /* UIView+YALConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCACDB21A6FCF3B00D5E1B1 /* UIView+YALConstraints.m */; };
+		0996C4871E5B5C860049FAF0 /* YALContextMenuTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCACDB41A6FCF3B00D5E1B1 /* YALContextMenuTableView.m */; };
 		2DBAC40B1A6D642F00FD0F5D /* ContextMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBAC4091A6D642F00FD0F5D /* ContextMenuCell.m */; };
 		2DBAC40C1A6D642F00FD0F5D /* ContextMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DBAC40A1A6D642F00FD0F5D /* ContextMenuCell.xib */; };
 		2DCACDB51A6FCF3B00D5E1B1 /* UIView+YALConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCACDB21A6FCF3B00D5E1B1 /* UIView+YALConstraints.m */; };
@@ -22,6 +30,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0996C47B1E5B5C060049FAF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9CAEE0E1A67D8AF0050F2EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0996C4751E5B5C060049FAF0;
+			remoteInfo = ContextMenu_iOS;
+		};
 		C9CAEE301A67D8AF0050F2EE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C9CAEE0E1A67D8AF0050F2EE /* Project object */;
@@ -31,7 +46,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0996C4821E5B5C060049FAF0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0996C47E1E5B5C060049FAF0 /* ContextMenu_iOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0996C4761E5B5C060049FAF0 /* ContextMenu_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ContextMenu_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0996C4781E5B5C060049FAF0 /* ContextMenu_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContextMenu_iOS.h; sourceTree = "<group>"; };
+		0996C4791E5B5C060049FAF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D88C3511A7000300020C283 /* YALContextMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YALContextMenuCell.h; sourceTree = "<group>"; };
 		2DBAC4081A6D642F00FD0F5D /* ContextMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextMenuCell.h; sourceTree = "<group>"; };
 		2DBAC4091A6D642F00FD0F5D /* ContextMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextMenuCell.m; sourceTree = "<group>"; };
@@ -58,10 +90,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0996C4721E5B5C060049FAF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C9CAEE131A67D8AF0050F2EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0996C47D1E5B5C060049FAF0 /* ContextMenu_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +115,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0996C4771E5B5C060049FAF0 /* ContextMenu_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0996C4781E5B5C060049FAF0 /* ContextMenu_iOS.h */,
+				0996C4791E5B5C060049FAF0 /* Info.plist */,
+			);
+			path = ContextMenu_iOS;
+			sourceTree = "<group>";
+		};
 		2DBAC4071A6D642F00FD0F5D /* ContextMenuCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +152,7 @@
 			children = (
 				C9CAEE181A67D8AF0050F2EE /* ContextMenu */,
 				C9CAEE321A67D8AF0050F2EE /* ContextMenuTests */,
+				0996C4771E5B5C060049FAF0 /* ContextMenu_iOS */,
 				C9CAEE171A67D8AF0050F2EE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,6 +162,7 @@
 			children = (
 				C9CAEE161A67D8AF0050F2EE /* ContextMenu.app */,
 				C9CAEE2F1A67D8AF0050F2EE /* ContextMenuTests.xctest */,
+				0996C4761E5B5C060049FAF0 /* ContextMenu_iOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,7 +214,39 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		0996C4731E5B5C060049FAF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0996C47A1E5B5C060049FAF0 /* ContextMenu_iOS.h in Headers */,
+				0996C4831E5B5C650049FAF0 /* UIView+YALConstraints.h in Headers */,
+				0996C4841E5B5C670049FAF0 /* YALContextMenuTableView.h in Headers */,
+				0996C4851E5B5C690049FAF0 /* YALContextMenuCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		0996C4751E5B5C060049FAF0 /* ContextMenu_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0996C4811E5B5C060049FAF0 /* Build configuration list for PBXNativeTarget "ContextMenu_iOS" */;
+			buildPhases = (
+				0996C4711E5B5C060049FAF0 /* Sources */,
+				0996C4721E5B5C060049FAF0 /* Frameworks */,
+				0996C4731E5B5C060049FAF0 /* Headers */,
+				0996C4741E5B5C060049FAF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContextMenu_iOS;
+			productName = ContextMenu_iOS;
+			productReference = 0996C4761E5B5C060049FAF0 /* ContextMenu_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		C9CAEE151A67D8AF0050F2EE /* ContextMenu */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9CAEE391A67D8AF0050F2EE /* Build configuration list for PBXNativeTarget "ContextMenu" */;
@@ -171,10 +254,12 @@
 				C9CAEE121A67D8AF0050F2EE /* Sources */,
 				C9CAEE131A67D8AF0050F2EE /* Frameworks */,
 				C9CAEE141A67D8AF0050F2EE /* Resources */,
+				0996C4821E5B5C060049FAF0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0996C47C1E5B5C060049FAF0 /* PBXTargetDependency */,
 			);
 			name = ContextMenu;
 			productName = ContextMenu;
@@ -208,6 +293,10 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Yalantis;
 				TargetAttributes = {
+					0996C4751E5B5C060049FAF0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
 					C9CAEE151A67D8AF0050F2EE = {
 						CreatedOnToolsVersion = 6.1;
 					};
@@ -232,11 +321,19 @@
 			targets = (
 				C9CAEE151A67D8AF0050F2EE /* ContextMenu */,
 				C9CAEE2E1A67D8AF0050F2EE /* ContextMenuTests */,
+				0996C4751E5B5C060049FAF0 /* ContextMenu_iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0996C4741E5B5C060049FAF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C9CAEE141A67D8AF0050F2EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -258,6 +355,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0996C4711E5B5C060049FAF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0996C4861E5B5C850049FAF0 /* UIView+YALConstraints.m in Sources */,
+				0996C4871E5B5C860049FAF0 /* YALContextMenuTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C9CAEE121A67D8AF0050F2EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -283,6 +389,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0996C47C1E5B5C060049FAF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0996C4751E5B5C060049FAF0 /* ContextMenu_iOS */;
+			targetProxy = 0996C47B1E5B5C060049FAF0 /* PBXContainerItemProxy */;
+		};
 		C9CAEE311A67D8AF0050F2EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C9CAEE151A67D8AF0050F2EE /* ContextMenu */;
@@ -310,6 +421,69 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0996C47F1E5B5C060049FAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = ContextMenu_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.afishhhhh.ContextMenu-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0996C4801E5B5C060049FAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = ContextMenu_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.afishhhhh.ContextMenu-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		C9CAEE371A67D8AF0050F2EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -445,6 +619,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0996C4811E5B5C060049FAF0 /* Build configuration list for PBXNativeTarget "ContextMenu_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0996C47F1E5B5C060049FAF0 /* Debug */,
+				0996C4801E5B5C060049FAF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		C9CAEE111A67D8AF0050F2EE /* Build configuration list for PBXProject "ContextMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
